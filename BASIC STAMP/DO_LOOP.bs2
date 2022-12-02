@@ -1,0 +1,9 @@
+' {$STAMP BS2}
+' {$PBASIC 2.5}
+
+DO
+DEBUG "HELLO" , CR
+PAUSE 1000
+LOOP
+
+END

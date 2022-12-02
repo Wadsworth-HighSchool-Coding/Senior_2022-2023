@@ -1,0 +1,12 @@
+' {$STAMP BS2}
+' {$PBASIC 2.5}
+
+DEBUG "Start Timer..."
+PAUSE 1000
+DEBUG CR, "One second elapsed"
+PAUSE 2000
+DEBUG CR, "Three Seconds elapsed..."
+
+DEBUG CR, "Done"
+
+END
