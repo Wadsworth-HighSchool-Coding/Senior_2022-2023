@@ -1,0 +1,12 @@
+' {$STAMP BS2}
+' {$PBASIC 2.5}
+
+MyCounter VAR Word
+
+FOR MyCounter =1 TO 10
+DEBUG? MyCounter
+PAUSE 500
+NEXT
+
+DEBUG CR, "ALL DONE!"
+END
