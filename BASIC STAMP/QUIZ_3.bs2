@@ -1,0 +1,26 @@
+' {$STAMP BS2}
+' {$PBASIC 2.5}
+
+counter VAR Word
+
+DEBUG "Counterclockwise 10'oclock", CR
+
+FOR counter=1 TO 150
+PULSOUT 14,1050
+PAUSE 20
+NEXT
+DEBUG "Clokcwise 2 o'clock"
+FOR counter=1 TO 150
+PULSOUT 14,900
+PAUSE 20
+NEXT
+
+
+DEBUG "Clokcwise 2 o'clock"
+FOR counter=1 TO 150
+PULSOUT 14,700
+PAUSE 20
+NEXT
+
+
+END

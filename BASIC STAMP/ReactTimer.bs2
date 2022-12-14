@@ -1,0 +1,36 @@
+' {$STAMP BS2}
+' {$PBASIC 2.5}
+
+timeCounter VAR Word
+
+DEBUG "Press and hold button", CR,
+"to make light turn red", CR, CR,
+"When light turns green, let" ,CR,
+"go as fast as you can" ,CR, CR
+
+
+DO
+DO
+LOOP UNTIL IN3 =1
+LOW 14
+HIGH 15
+PAUSE 1000
+HIGH 14
+LOW 15
+
+timeCounter = 0
+
+DO
+
+PAUSE 1
+timeCounter = timeCounter +1
+
+LOOP UNTIL IN3 = 0
+LOW 14
+DEBUG " Your time was ", DEC timeCounter,
+"ms.", CR,CR,
+" TO play again, hold the ", CR,
+"button down again", CR,CR
+
+
+LOOP

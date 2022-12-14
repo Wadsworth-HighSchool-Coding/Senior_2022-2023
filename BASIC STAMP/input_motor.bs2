@@ -1,0 +1,25 @@
+' {$STAMP BS2}
+' {$PBASIC 2.5}
+
+counter VAR Word
+pulses VAR Word
+duration VAR Word
+
+DO
+DEBUG CLS, "Enter number of pulses:", CR
+DEBUGIN DEC pulses
+
+DEBUG "Enter pulsout duration:", CR
+DEBUGIN DEC duration
+
+DEBUG "servo running", CR
+
+FOR counter =1 TO pulses
+PULSOUT 14, duration
+PAUSE 20
+NEXT
+
+DEBUG "Done"
+PAUSE 1000
+
+LOOP
