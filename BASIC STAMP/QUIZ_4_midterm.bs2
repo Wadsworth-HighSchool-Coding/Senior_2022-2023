@@ -4,17 +4,22 @@
 DEBUG "Program Running"
 DO
 OUTH =%00000000
+
+'waits until the button that is connected to p1 is pressed
 DO
 LOOP UNTIL IN1 = 1
+
+
+'three frequencies
 FREQOUT 0,1500,900
 FREQOUT 0,1500,1500
 FREQOUT 0,1500,3000
 
+'init display
 OUTH =%00000000
-
 DIRH =%11111111
 
-
+'display numbers
 OUTH =%10110100      '4
 PAUSE 1000
 
@@ -25,10 +30,10 @@ PAUSE 1000
 OUTH =%11100111     '0
 PAUSE 1000
 
-
+'another frequency
 FREQOUT 0,3000,900
 
-
+'displays 1
 PAUSE 1000
 OUTH =%10000100  '1
 PAUSE 1000
