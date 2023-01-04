@@ -4,7 +4,6 @@
 DEBUG "Program Running"
 DO
 OUTH =%00000000
-
 DO
 LOOP UNTIL IN1 = 1
 OUTH =%00000000
