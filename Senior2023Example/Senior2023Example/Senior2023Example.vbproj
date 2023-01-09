@@ -213,6 +213,7 @@
     <Content Include="LoginError.aspx" />
     <Content Include="Notes1.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Notes2.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -397,6 +398,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Notes2.aspx.designer.vb">
+      <DependentUpon>Notes2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Notes2.aspx.vb">
+      <DependentUpon>Notes2.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Site.Master.designer.vb">
       <DependentUpon>Site.Master</DependentUpon>
