@@ -3,7 +3,7 @@
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         If HttpContext.Current.User.Identity.IsAuthenticated = False Then
-            'Response.Redirect("~/LoginError.aspx")
+            Response.Redirect("~/LoginError.aspx")
         End If
     End Sub
 
