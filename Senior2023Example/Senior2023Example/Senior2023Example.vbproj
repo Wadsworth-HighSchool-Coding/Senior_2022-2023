@@ -214,6 +214,7 @@
     <Content Include="Notes1.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Notes2.aspx" />
+    <Content Include="Notes3.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -404,6 +405,13 @@
     </Compile>
     <Compile Include="Notes2.aspx.vb">
       <DependentUpon>Notes2.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Notes3.aspx.designer.vb">
+      <DependentUpon>Notes3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Notes3.aspx.vb">
+      <DependentUpon>Notes3.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Site.Master.designer.vb">
