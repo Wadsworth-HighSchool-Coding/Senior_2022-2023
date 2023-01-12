@@ -103,7 +103,6 @@
             <asp:BoundField DataField="mascot" HeaderText="mascot" SortExpression="mascot" />
             <asp:TemplateField HeaderText="schoolColor" SortExpression="schoolColor">
                 <EditItemTemplate>
-                    <asp:TextBox ID="TextBox1" runat="server" Text='<%# Bind("schoolColor") %>'></asp:TextBox>
                     <asp:DropDownList ID="DropDownList1" runat="server" DataSourceID="SqlDataSourceColorList" DataTextField="color" DataValueField="color" SelectedValue='<%# Bind("schoolColor") %>'>
                     </asp:DropDownList>
                 </EditItemTemplate>
