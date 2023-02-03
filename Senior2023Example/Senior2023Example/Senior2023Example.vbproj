@@ -46,6 +46,9 @@
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=20.1.0.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <HintPath>..\packages\AjaxControlToolkit.20.1.0\lib\net40\AjaxControlToolkit.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -176,6 +179,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="accordionStyles.css" />
     <Content Include="Account\AddPhoneNumber.aspx" />
     <Content Include="Account\Confirm.aspx" />
     <Content Include="Account\Forgot.aspx" />
@@ -191,6 +195,7 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
+    <Content Include="assignment1.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -210,11 +215,17 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Account\Web.config" />
+    <Content Include="images\assholecrope.png" />
+    <Content Include="images\joey and ben.jpg" />
+    <Content Include="images\Koala_with_machine_gun.jpg" />
     <Content Include="LoginError.aspx" />
     <Content Include="Notes1.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Notes2.aspx" />
     <Content Include="Notes3.aspx" />
+    <Content Include="Notes4.aspx" />
+    <Content Include="Notes5.aspx" />
+    <Content Include="Notes6.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -363,6 +374,13 @@
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="App_Start\Startup.Auth.vb" />
+    <Compile Include="assignment1.aspx.designer.vb">
+      <DependentUpon>assignment1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="assignment1.aspx.vb">
+      <DependentUpon>assignment1.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Contact.aspx.designer.vb">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
@@ -412,6 +430,27 @@
     </Compile>
     <Compile Include="Notes3.aspx.vb">
       <DependentUpon>Notes3.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Notes4.aspx.designer.vb">
+      <DependentUpon>Notes4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Notes4.aspx.vb">
+      <DependentUpon>Notes4.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Notes5.aspx.designer.vb">
+      <DependentUpon>Notes5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Notes5.aspx.vb">
+      <DependentUpon>Notes5.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Notes6.aspx.designer.vb">
+      <DependentUpon>Notes6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Notes6.aspx.vb">
+      <DependentUpon>Notes6.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Site.Master.designer.vb">

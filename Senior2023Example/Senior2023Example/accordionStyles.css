@@ -1,0 +1,34 @@
+﻿.accordionHeader {
+    border: 1px solid #2F4F4F;
+    color: white;
+    background-color: #2E4d7B;
+    font-family: Arial, Sans-Serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#master_content .accordionHeader a {
+    color: #FFFFFF;
+    background: none;
+    text-decoration: none;
+}
+
+    #master_content .accordionHeader a:hover {
+        background: none;
+        text-decoration: underline;
+    }
+
+.accordionHeaderSelected {
+    border: 1px solid #2F4F4F;
+    color: white;
+    background-color: #5078B3;
+    font-family: Arial, Sans-Serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}

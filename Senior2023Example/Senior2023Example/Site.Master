@@ -55,6 +55,7 @@
                         <li><a runat="server" href="~/">Home</a></li>
                         <li><a runat="server" href="~/About">About</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
+                        <li><a runat="server" href="~/assignment1">assignment1</a></li>
                         <li><a runat="server" href="~/Notes1">Notes</a></li>
                         <li class="dropdown">
                            <a runat="server" class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1<span class="caret"></span></a>
@@ -62,6 +63,9 @@
                              <li><a runat="server" href="~/Notes1">Notes1</a></li>
                              <li><a runat="server" href="~/Notes2">Notes2</a></li>
                              <li><a runat="server" href="~/Notes3">Notes3</a></li>
+                             <li><a runat="server" href="~/Notes4">Notes4</a></li>
+                             <li><a runat="server" href="~/Notes5">Notes5</a></li>
+                             <li><a runat="server" href="~/Notes6">Notes6</a></li>
                            </ul>
                          </li>
                         </ul>
